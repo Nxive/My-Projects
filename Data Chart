@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024">
+    <title>Example 01: No CSS</title>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div class="chart">
+        <h3>Write Text Here</h3>
+        <table id="data-table" border="1" cellpadding="10" cellspacing="0"
+          summary="The effects of the zombie outbreak on the populations
+          of endangered species from 2012 to 2016">
+          <thead>
+            <tr>
+              <td>Enter data</td>
+              <th scope="col">Enter Data</th>
+
+            </tr>
+          </thead>
+          <tr>
+            <td>Enter data</td>
+            <th scope="col">Enter Data</th>
+            <tbody>
+
+            </tr>
+          </tbody>
+        </div>
+      </div>
+    </body>
+  </html>

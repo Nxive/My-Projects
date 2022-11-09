@@ -1,3 +1,10 @@
+<!------------------------>
+<!--<tbody> indicates new line-->
+<!--</tr> indicates new column
+<th> makes content bold-->
+<!------------------------>
+<!--Document Start-->
+<!------------------------>
 <!doctype html>
 <html lang="en">
   <head>
@@ -5,29 +12,104 @@
     <meta name="viewport" content="width=1024">
     <title>Example 01: No CSS</title>
   </head>
-
+<!------------------------>
+<!--Format is indicated-->
+<!------------------------>
   <body>
     <div id="wrapper">
       <div class="chart">
-        <h3>Write Text Here</h3>
-        <table id="data-table" border="1" cellpadding="10" cellspacing="0"
-          summary="The effects of the zombie outbreak on the populations
-          of endangered species from 2012 to 2016">
-          <thead>
-            <tr>
-              <td>Enter data</td>
-              <th scope="col">Enter Data</th>
-
+        <!--\/Title \/-->
+        <h3>Title</h3>
+        <table id="data-table" border="1" 
+        cellpadding="10" cellspacing="0" 
+        contenteditable="10">
+        <!------------------------>
+        <!--Graph Starts Here-->
+        <!------------------------>
+            <tr> <!--New column-->
+              <th scope="col"></th>
+              <th scope="col">A</th>
+              <th scope="col">B</th>
+              <th scope="col">C</th>
+              <th scope="col">D</th>
+              <th scope="col">E</th>
+              <th scope="col">F</th>
+              <th scope="col">G</th>
+        <!--Sub Column-->
+            </tr>  <!--New column-->
+            <th scope="col">1</th>
+        <!--Sub Column-->
+        <!--Enter Data-->
+            <th></th> 
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        <!--New column-->
+            </tr> 
+            <th scope="col">2</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        <!--New column-->
             </tr>
-          </thead>
-          <tr>
-            <td>Enter data</td>
-            <th scope="col">Enter Data</th>
-            <tbody>
-
+            <th scope="col">3</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        <!--New column-->
             </tr>
-          </tbody>
+            <th scope="col">4</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        <!--New column-->
+            </tr>
+            <th scope="col">5</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        <!--New column-->
+            </tr>
+            <th scope="col">6</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        <!--New column-->
+            </tr>
+            <th scope="col">7</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+
+        <!--Ends Document-->   
+            </div>
         </div>
-      </div>
     </body>
-  </html>
+</html>
